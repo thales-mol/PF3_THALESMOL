@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    <h1><div class="title">IMC - Calculadora</div></h1>
+<div class="container">
+  <h2></h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="number">valor aplicado:</label>
+      <div class="col-sm-10">
+        <input type="number" class="form-control" id="valor" placeholder="digite o valor aplicado " name="number">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="juros">taxa de juros:</label>
+      <div class="col-sm-10">          
+        <input type="number" class="form-control" id="juros" placeholder="digite o juros" name="juros">
+      </div>
+
+    </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="parcelas">número de parcelas mensais </label>
+        <div class="col-sm-10">          
+          <input type="number" class="form-control" id="parcelas" placeholder="digite numero de parcelas mensais " name="parcelas">
+        </div>
+
+
+      
+    </div>
+    
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-4 col-sm-10">
+        <button id="calcular" type="submit" class="btn btn-default">calcular</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
